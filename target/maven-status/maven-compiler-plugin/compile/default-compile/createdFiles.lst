@@ -1,0 +1,12 @@
+mydelivery\OrderCanceled.class
+mydelivery\AbstractEvent$1.class
+mydelivery\config\kafka\KafkaProcessor.class
+mydelivery\OrderBoard.class
+mydelivery\OrderBoardViewHandler.class
+mydelivery\DeliveryRequested.class
+mydelivery\AbstractEvent.class
+mydelivery\Delivered.class
+mydelivery\OrderBoardRepository.class
+mydelivery\OrderBoardApplication.class
+mydelivery\PolicyHandler.class
+mydelivery\OrderRequested.class
