@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: OrderBoard
+  name: orderboard
   labels:
-    app: OrderBoard
+    app: orderboard
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: OrderBoard
+      app: orderboard
   template:
     metadata:
       labels:
-        app: OrderBoard
+        app: orderboard
     spec:
       containers:
-        - name: OrderBoard
-          image: username/OrderBoard:latest
+        - name: orderboard
+          image: username/orderboard:latest
           ports:
             - containerPort: 8080
           readinessProbe:
